@@ -7,12 +7,6 @@
 #include "roster.cpp"
 using namespace std;
 
-
-//Main function
-int main() {
-
-}
-
 //Function definitions
 void start_game() {
 

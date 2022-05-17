@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "game/master.cpp"
+#include "game/master.h"
 using namespace std;
 
 int main() {
