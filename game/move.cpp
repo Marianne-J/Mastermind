@@ -1,7 +1,11 @@
 #include <iostream>
 #include <string>
+#include "move.h"
 using namespace std;
 
-class Move {
 
-};
+string Move::get_guess() {
+    /*Returns the player's current guess.*/
+
+    return guess;
+}
