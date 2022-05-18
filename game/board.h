@@ -1,13 +1,15 @@
 #include <iostream>
 #include <string>
+#include "move.h"
+#include "player.h"
 using namespace std;
 
 class Board {
     public:
         //Declare functions
-        void apply();
+        void apply(Move move_input, int turn_input);
         bool check_win();
-        string to_string();
+        string to_string(Player players[2]);
     
     private:
         //Declare functions
