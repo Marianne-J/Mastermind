@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "move.h"
+#pragma once
 using namespace std;
 
 

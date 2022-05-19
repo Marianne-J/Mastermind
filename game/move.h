@@ -1,11 +1,14 @@
 #include <iostream>
 #include <string>
+#pragma once
 using namespace std;
 
 
 class Move {
     /*An object that stores the player's current guess.*/
     public:
+        //Create constructor
+        Move() = default;
         //Define functions
         string get_guess();
         //Set parameters
@@ -16,7 +19,5 @@ class Move {
     private:
         //Define variables
         string guess;
-};
-
-//Create constructor for Move
-class Move {Move() = default; };
+};//Create constructor for Move
+//class Move {Move() = default; };

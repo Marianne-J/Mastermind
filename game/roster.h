@@ -2,6 +2,7 @@
 #include <string>
 #include <algorithm>
 #include "player.h"
+#pragma once
 using namespace std;
 
 class Roster {

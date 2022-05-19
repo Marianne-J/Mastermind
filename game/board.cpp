@@ -49,7 +49,7 @@ bool Board::check_win() {
     return check_win;
 }
 
-string Board::to_string(Player players[2]) {
+string Board::board_to_string(Player players[2]) {
     string player_1 = "Player " + players[0].get_name() + ": " + player_1_status[0] + "," + player_1_status[1] + "\n";
     string player_2 = "Player " + players[1].get_name() + ": " + player_2_status[0] + "," + player_2_status[1] + "\n";
 

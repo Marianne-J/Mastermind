@@ -5,10 +5,13 @@
 #include "move.cpp"
 #include "player.cpp"
 #include "roster.cpp"
+#pragma once
 using namespace std;
 
 class Master {
     public:
+        //Create constructor
+        Master() = default;
         //Declare functions
         void start_game();
         //Declare variables

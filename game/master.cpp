@@ -28,7 +28,7 @@ void Master::prepare_game() {
 }
 
 void Master::do_outputs() {
-    console.write("\n" + board.to_string(roster.players));
+    console.write("\n" + board.board_to_string(roster.players));
 }
 
 void Master::get_inputs() {

@@ -9,4 +9,6 @@ int main() {
 
     //Start game
     master.start_game();
+
+    return 0;
 }
