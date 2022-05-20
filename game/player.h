@@ -12,10 +12,7 @@ class Player {
         Move get_move();
         string get_name();
         void set_move(Move input);
-        //Set parameters
-        Player(string input) {
-            name = input;
-        }
+        void set_name(string name);
 
     private:
         //Set variables

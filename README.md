@@ -1,30 +1,24 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This is a game of Mastermind, based on a version of the game I helped write previously. Two players try to guess the generated code based on hints provided by the program. The first player to guess the code wins.
 
-{Provide a description the software that you wrote to demonstrate the C++ language.}
+My purpose in writing this program was to learn how to and practice programming in C++.
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video]()
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+* Visual Studio Code
+* C++
+* G++
+* Git / GitHub
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [C++ Tutorial](https://www.w3schools.com/CPP/default.asp)
+* [Stack Overflow](https://stackoverflow.com/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Fix errors so it is possible to create executable
+* Debug based on any errors found after executing

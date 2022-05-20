@@ -15,6 +15,11 @@ string Player::get_name() {
 }
 
 void Player::set_move(Move input) {
-    /*Sets the player's name.*/
+    /*Sets the player's move.*/
     move = input;
+}
+
+void Player::set_name(string input) {
+    /*Sets the player's name.*/
+    name = input;
 }

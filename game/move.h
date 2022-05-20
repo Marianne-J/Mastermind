@@ -11,10 +11,7 @@ class Move {
         Move() = default;
         //Define functions
         string get_guess();
-        //Set parameters
-        Move(string input) {
-            guess = input;
-        }
+        void set_guess(string input);
     
     private:
         //Define variables

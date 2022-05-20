@@ -9,3 +9,8 @@ string Move::get_guess() {
 
     return guess;
 }
+
+void Move::set_guess(string input) {
+    /*Sets the player's current guess.*/
+    guess = input;
+}
