@@ -4,7 +4,7 @@ This is a game of Mastermind, based on a version of the game I helped write prev
 
 My purpose in writing this program was to learn how to and practice programming in C++.
 
-[Software Demo Video]()
+[Software Demo Video](https://youtu.be/ZtTjF5emzyQ)
 
 # Development Environment
 
